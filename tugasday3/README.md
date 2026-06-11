@@ -241,6 +241,6 @@ Dari tugas ini saya belajar mengenai dasar-dasar JavaScript, mulai dari pengguna
 
 ### 👨‍💻 Author
 
-**Hammam Mubarak**
+**HammamDev**
 
 Junior Web Developer yang sedang mempelajari JavaScript dan pengembangan web modern.
