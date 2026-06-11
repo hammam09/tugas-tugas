@@ -205,21 +205,7 @@ Bahasa Pemrograman Favorit: JavaScript
 
 ---
 
-## 🚀 Cara Menjalankan
-
-1. Clone repository
-
-```bash
-git clone https://github.com/username/nama-repository.git
-```
-
-2. Masuk ke folder project
-
-```bash
-cd nama-repository
-```
-
-3. Jalankan file JavaScript menggunakan:
+## Jalankan file JavaScript menggunakan:
 
 ### Browser
 
@@ -228,7 +214,7 @@ Buka Developer Tools → Console
 ### Node.js
 
 ```bash
-node index.js
+node script.js
 ```
 
 ---
