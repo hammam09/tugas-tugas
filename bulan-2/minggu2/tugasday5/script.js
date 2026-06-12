@@ -36,6 +36,8 @@ for (let number = 1; number <= 10; number++){
 
 // Soal Nomor 6
 console.log("Soal nomor 6");
+let hasil = 0;
 for (let sum = 1; sum <= 50; sum++){
-    console.log(sum + sum);
+    hasil += sum;
 }
+console.log(hasil);
