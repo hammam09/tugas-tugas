@@ -14,9 +14,9 @@ console.log(typeof boolean);
 
 // 2. Penjelasan dari kode berikut
 
-let a = 10;
-let b = "5";
-console.log(a+b);
+let q = 10;
+let h = "5";
+console.log(q+h);
 
 // Penjelasan = Karena b bertipe string, operator + akan melakukan penggabungan (concatenation), bukan penjumlahan.
 
@@ -30,22 +30,22 @@ console.log("Apakah hasil sama dengan 1?", hasil == 1);
 
 // 4. Tentukan hasil kode di bawah
 
-let c = 8;
-c += 4;
-c *= 2;
-c -= 6;
-console.log(c);
+let g = 8;
+g += 4;
+g *= 2;
+g -= 6;
+console.log(g);
 
 // 5. Genap dan Ganjil
-let angka = 3;
-if (angka % 2 === 0) {
-    if (angka > 0) {
+let Angka = 3;
+if (Angka % 2 === 0) {
+    if (Angka > 0) {
         console.log("Genap Positif");
     } else {
         console.log("Genap Negatif");
     }
 } else {
-    if (angka > 0) {
+    if (Angka > 0) {
         console.log("Ganjil Positif");
     } else {
         console.log("Ganjil Negatif");
@@ -111,3 +111,75 @@ for (let i = 1; i <= 50; i++) {
         console.log(i);
     }
 }
+
+// 11. Menghitung nilai z dan d
+
+let z = 4;
+let d = z++ + ++z;
+console.log(d);
+
+// 12. Menghitung total bilangan ganjil dari 1-100
+
+let total = 0;
+for (let i = 1; i <= 100; i++) {
+    if (i % 2 !== 0) {
+        total += i;
+    }
+}
+console.log("Total bilangan ganjil:", total);
+
+// 13. Membuat Program dari gambar berikut
+// *
+// **
+// ***
+// ****
+// *****
+
+for (let i = 1; i <= 5; i++) {
+    let baris = "";
+    for (let j = 1; j <= i; j++) {
+        baris += "*";
+    }
+    console.log(baris);
+}
+
+// 14. Menghitung seluruh jumlah elemen yag lebih dari 10
+
+let angka = [12, 5, 18, 7, 21, 30, 2];
+let jumlah = 0;
+for (let i = 0; i < angka.length; i++) {
+    if (angka[i] > 10) {
+        jumlah += angka[i];
+    }
+}
+console.log(jumlah);
+
+// 15. Mencari bilangan prima dari 1-100
+
+for (let angka = 2; angka <= 100; angka++) {
+    let prima = true;
+    for (let i = 2; i < angka; i++) {
+        if (angka % i === 0) {
+            prima = false;
+            break;
+        }
+    }
+    if (prima) {
+        console.log(angka);
+    }
+}
+
+// 16. Menentukan output dari kode di bawah
+
+let a = 2;
+let b = 3;
+let c = 4;
+    if (a < b) {
+        if (b > c) {
+            console.log("A");
+        } else {
+            console.log("B");
+        }
+    } else {
+        console.log("C");
+    }
