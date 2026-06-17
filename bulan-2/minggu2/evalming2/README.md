@@ -34,3 +34,4 @@ Karena program ini berjalan di sisi klien (browser) dan kebanyakan menggunakan f
 2. Anda akan melihat sebuah dialog `prompt` untuk memasukkan username dan password (bagian dari Latihan 17). Anda bisa mengisinya (username: `admin`, password: `123`) atau melewatinya.
 3. Buka **Developer Tools** di browser Anda (tekan `F12` atau klik kanan pada halaman lalu pilih **Inspect** / **Inspeksi**).
 4. Masuk ke tab **Console** untuk melihat hasil keluaran dari setiap baris kode yang dieksekusi.
+5. Masuk ke terminal pada Visual Studio Code dan masuk ke folder `evalming2` lalu jalankan perintah `node script.js` untuk menjalankan program dan melihat hasil outputnya di terminal.
