@@ -186,16 +186,13 @@ let c = 4;
 
 // 17. Membuat login sederhana
 
-function login(email, password){
-  if(!email || !password) {
-    return console.log('email dan password harus di isi');
-  }
-  return console.log('Anda berhasil login');
+let userName = 'admin';
+let Password = '123';
+if (userName == 'admin' && Password == '123') {
+    console.log("Anda berhasil login");
+} else {
+    console.log("Anda gagal login");
 }
-
-login('', 'password');
-login('email@com', '');
-login('email@com', 'password');
 
 // 18. Menentukan Hari dalam 1 bulan selama 1 Tahun
 
