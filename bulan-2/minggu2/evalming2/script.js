@@ -176,10 +176,74 @@ let b = 3;
 let c = 4;
     if (a < b) {
         if (b > c) {
-            console.log("A");
+            console.log("a");
         } else {
-            console.log("B");
+            console.log("b");
         }
     } else {
-        console.log("C");
+        console.log("c");
     }
+
+// 17. Membuat login sederhana
+
+function login(email, password){
+  if(!email || !password) {
+    return console.log('email dan password harus di isi');
+  }
+  return console.log('Anda berhasil login');
+}
+
+login('', 'password');
+login('email@com', '');
+login('email@com', 'password');
+
+// 18. Menentukan Hari dalam 1 bulan selama 1 Tahun
+
+let bulan = 2;
+switch (bulan) {
+  case 1:
+  case 3:
+  case 5:
+  case 7:
+  case 8:
+  case 10:
+  case 12:
+    console.log("Jumlah hari: 31");
+    break;
+
+  case 4:
+  case 6:
+  case 9:
+  case 11:
+    console.log("Jumlah hari: 30");
+    break;
+
+  case 2:
+    console.log("Jumlah hari: 28 atau 29 (tahun kabisat)");
+    break;
+
+  default:
+    console.log("Nomor bulan tidak valid");
+}
+
+// 19. Menampilan deret angka menggunakan looping
+
+let deret = 1;
+for (let i = 1; i <= 7; i++) {
+  console.log(deret);
+  deret = deret * 2;
+}
+
+// 20. Menentukan nilai akhir beserta penjelasan
+
+let totalNilai = 0;
+
+for (let i = 1; i <= 10; i++) {
+  if (i % 2 === 0) {
+    totalNilai += i;
+  } else {
+    totalNilai -= i;
+  }
+}
+
+console.log(totalNilai);
