@@ -4,13 +4,13 @@
 
 // 1. Tipe Data 
 
-let number = 75;
-let string = "75";
-let boolean = true;
+let nilaiAngka = 75;
+let nilaiString = "75";
+let nilaiBoolean = true;
 
-console.log(typeof number);
-console.log(typeof string);
-console.log(typeof boolean);
+console.log(typeof nilaiAngka);
+console.log(typeof nilaiString);
+console.log(typeof nilaiBoolean);
 
 // 2. Penjelasan dari kode berikut
 
