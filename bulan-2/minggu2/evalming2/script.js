@@ -186,12 +186,12 @@ let c = 4;
 
 // 17. Membuat login sederhana
 
-let userName = 'admin';
-let Password = '123';
+let userName = prompt('Masukkan username Anda:');
+let Password = prompt('Masukkan password Anda:');
 if (userName == 'admin' && Password == '123') {
-    console.log("Anda berhasil login");
+    alert("Anda berhasil login");
 } else {
-    console.log("Anda gagal login");
+    alert("Anda gagal login");
 }
 
 // 18. Menentukan Hari dalam 1 bulan selama 1 Tahun
