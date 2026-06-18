@@ -49,30 +49,6 @@ tugas-tugas/
 
 ---
 
-## 🚀 Getting Started
-
-Clone repository ini ke komputer lokal:
-
-```bash
-git clone https://github.com/hammam09/tugas-tugas.git
-```
-
-Masuk ke folder project:
-
-```bash
-cd tugas-tugas
-```
-
-Buka project menggunakan Visual Studio Code:
-
-```bash
-code .
-```
-
-Jalankan file HTML menggunakan browser atau extension Live Server.
-
----
-
 ## 🎯 Learning Progress
 
 ### Web Development Roadmap
@@ -118,7 +94,7 @@ Dari berbagai tugas dan project yang terdapat dalam repository ini, saya mempela
 
 ## 👨‍💻 Author
 
-# HammamDev
+# Hammam
 
 ### Junior Frontend Developer
 
