@@ -65,7 +65,7 @@ console.log("!true =", !true);                 // NOT
 
 // 6. PROGRAM KALKULATOR SEDERHANA
 let angka1 = 10;
-let angka2 = 5;
+let angka2 = 3;
 
 console.log("Penjumlahan: ", angka1 + angka2); 
 console.log("Pengurangan: ", angka1 - angka2); 
