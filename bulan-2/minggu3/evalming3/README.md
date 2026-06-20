@@ -1,99 +1,101 @@
 # Tugas Evaluasi Minggu 3
 
-Proyek ini merupakan tugas evaluasi pembelajaran JavaScript minggu 3 yang berisi solusi untuk 9 soal berbeda mengenai manipulasi array dan fungsi dalam JavaScript.
+Proyek ini merupakan tugas evaluasi pembelajaran JavaScript minggu 3 yang berisi solusi untuk 20 soal (termasuk soal bonus) mengenai manipulasi array, fungsi, dan object dalam JavaScript.
 
 ## 📋 Daftar Soal
 
 ### 1. Menghitung Angka Genap pada Indeks Ganjil
-
-- **Deskripsi**: Menghitung jumlah angka genap yang berada pada indeks ganjil dari array bilangan 1-20
-- **Input**: Array `[2, 12, 10, 19, 18, 4, 6, 17, 8, 20, 16, 15, 1, 14, 11, 5, 3, 9, 7, 13]`
-- **Output**: Jumlah total dari angka-angka genap pada indeks ganjil
+Menghitung jumlah angka genap yang berada pada indeks ganjil dari array bilangan 1-20.
 
 ### 2. Membuat Array Baru (Unique Values)
-
-- **Deskripsi**: Membuat array baru yang hanya berisi nilai unik (menghapus duplikat)
-- **Input**: Array `[12, 5, 18, 5, 7, 12, 20, 18, 25]`
-- **Output**: Array tanpa nilai duplikat
+Membuat array baru yang hanya berisi nilai unik (menghapus duplikat).
 
 ### 3. Reverse Array Tanpa Menggunakan .reverse()
-
-- **Deskripsi**: Membalik urutan elemen array tanpa menggunakan method `.reverse()`
-- **Input**: Array `[1, 2, 3, 4, 5]`
-- **Output**: Array terbalik `[5, 4, 3, 2, 1]`
+Membalik urutan elemen array tanpa menggunakan method bawaan `.reverse()`.
 
 ### 4. Menghitung Rata-rata Nilai di Atas 70
-
-- **Deskripsi**: Menghitung rata-rata dari nilai yang lebih besar dari 70
-- **Input**: Array `[75, 90, 45, 88, 60, 92, 77]`
-- **Output**: Rata-rata nilai yang > 70
+Menghitung rata-rata dari angka dalam array yang bernilai lebih besar dari 70.
 
 ### 5. Mencari Nilai Terbesar Kedua
-
-- **Deskripsi**: Menemukan nilai terbesar kedua dalam sebuah array
-- **Input**: Array `[21, 19, 35, 10, 20]`
-- **Output**: Nilai terbesar kedua (35)
+Menemukan nilai terbesar kedua dalam sebuah array tanpa menggunakan sort bawaan.
 
 ### 6. Filter String dengan Panjang ≥ 5 Karakter
-
-- **Deskripsi**: Membuat array baru yang berisi hanya string dengan panjang minimal 5 karakter
-- **Input**: Array `["javascript", "html", "css", "react", "nodejs"]`
-- **Output**: Array dengan string yang panjangnya ≥ 5 karakter
+Membuat array baru yang berisi hanya string dengan panjang minimal 5 karakter.
 
 ### 7. Fungsi Pencari Bilangan Prima
-
-- **Deskripsi**: Membuat fungsi untuk menemukan semua bilangan prima dari sebuah array
-- **Input**: Array `[2, 3, 4, 5, 10, 11, 13, 16, 17]`
-- **Output**: Array berisi hanya bilangan prima
+Membuat fungsi untuk menemukan semua bilangan prima dari sebuah array.
 
 ### 8. Mencari Persamaan Antar Array (Intersection)
-
-- **Deskripsi**: Menemukan elemen yang sama dari dua array berbeda
-- **Input**:
-  - Array 1: `["Budi", "Fajar", "Andi", "Angga", "Nopal"]`
-  - Array 2: `["Siti", "Dewi", "Nopal", "Yuda", "Budi"]`
-- **Output**: Array dengan elemen yang sama dari kedua array
+Menemukan elemen yang sama dari dua array yang berbeda.
 
 ### 9. Hitung Jumlah Karakter (Character Frequency)
+Membuat fungsi untuk menghitung berapa kali setiap karakter muncul dalam sebuah string menggunakan object.
 
-- **Deskripsi**: Membuat fungsi untuk menghitung berapa kali setiap karakter muncul dalam string
-- **Output**: Objek yang berisi frekuensi setiap karakter
+### 10. Sorting Array Secara Manual
+Mengurutkan array angka acak dari yang terbesar ke terkecil menggunakan algoritma secara manual.
+
+### 11. Menghitung Rata-rata Nilai Siswa
+Menghitung rata-rata nilai dari sebuah object siswa yang memiliki properti array berisi sekumpulan nilai.
+
+### 12. Simulasi Rekening Bank dengan Method `this`
+Membuat object rekening dengan properti saldo, dan method untuk menabung, menarik uang, serta melihat saldo saat ini.
+
+### 13. Mencari Siswa dengan Nilai Tertinggi
+Membuat fungsi yang menerima array of object (data siswa) dan mengembalikan nama siswa dengan nilai tertinggi.
+
+### 14. Mengubah Object Menjadi Array
+Mengonversi sebuah object data produk menjadi array 2D yang berisi pasangan `[key, value]`.
+
+### 15. Bonus: Pangkat Rekursif
+Membuat fungsi rekursif untuk menghitung hasil pangkat dari suatu basis dan eksponen tanpa menggunakan `Math.pow()`.
+
+### 16. Grouping Data Mahasiswa Berdasarkan Jurusan
+Mengelompokkan array of object data mahasiswa ke dalam kategori (object) berdasarkan nama jurusan.
+
+### 17. Menghitung Total Angka pada Object Bersarang (Nested Object)
+Membuat fungsi rekursif yang dapat menelusuri dan menjumlahkan semua angka di dalam object bersarang, sedalam apa pun strukturnya.
+
+### 18. Menghitung Saldo Akhir Berdasarkan Transaksi
+Menghitung saldo akhir berdasarkan array of object yang berisi daftar transaksi dengan tipe 'income' dan 'expense'.
+
+### 19. Sistem Inventaris Barang
+Membuat object inventaris yang memiliki array untuk menyimpan data barang beserta method untuk menambah, menghapus, mencari, dan menampilkannya.
+
+### 20. Bonus: Sistem Manajemen Siswa
+Membuat object sistem yang dapat menyimpan data array siswa, serta melakukan operasi CRUD (Create, Read, Update, Delete), menghitung rata-rata keseluruhan, dan mencari siswa dengan nilai terbaik/terendah.
 
 ## 🚀 Cara Menjalankan
 
 ### Requirements
+- **Node.js** (versi 12 atau lebih tinggi) atau Browser Modern.
 
-- Node.js (versi 12 atau lebih tinggi)
-
-### Menjalankan Script
-
+### Menjalankan Melalui Node.js
+Buka terminal dan jalankan perintah berikut:
 ```bash
 node script.js
 ```
+*Output akan ditampilkan secara langsung di layar console/terminal.*
 
-Semua output akan ditampilkan di console.
+### Menjalankan Melalui Browser
+Buka file `index.html` di browser Anda, klik kanan halaman web, pilih **"Inspect"** (atau tekan `F12`), kemudian masuk ke tab **Console** untuk melihat hasil dari setiap soal yang ada.
 
 ## 📁 Struktur File
-
 ```
 evalming3/
-├── index.html      # File HTML (loading script.js)
-├── script.js       # Solusi untuk 9 soal evaluasi
+├── index.html      # File HTML untuk menjalankan script di browser
+├── script.js       # Solusi lengkap untuk 20 soal evaluasi (termasuk bonus)
 └── README.md       # Dokumentasi (file ini)
 ```
 
 ## 💡 Konsep yang Digunakan
-
-- **Loop (for)**: Iterasi melalui array
-- **Conditional (if/else)**: Pengambilan keputusan
-- **Array Methods**: Manipulasi dan filtering array
-- **Functions**: Membuat dan memanggil fungsi
-- **Objects**: Menyimpan data dalam bentuk key-value pair
+- **Array & Looping**: `for` loop biasa, `for...in` untuk iterasi properties dari sebuah Object, dan manipulasi elemen-elemen secara manual.
+- **Conditional Statement**: `if`, `else if`, `else`.
+- **Functions**: Deklarasi fungsi, return statement, dan **Fungsi Rekursif** (Recursive Function).
+- **Objects**: Pembuatan object literal, properti object, method object, `this` keyword, serta *nested object* (object bersarang).
+- **Algoritma Dasar**: Teknik *swapping*, manipulasi string, *grouping*, serta pencarian nilai max/min.
 
 ## ✅ Status
-
-Proyek ini sudah selesai dan semua soal sudah terpecahkan.
+Proyek telah selesai. Semua 20 soal beserta soal bonus sudah berhasil dikerjakan dan diuji dengan baik.
 
 ---
-
-**Tanggal**: 2026 | **Tujuan**: Evaluasi Pembelajaran JavaScript Minggu 3
+**Tujuan**: Evaluasi Pembelajaran JavaScript Minggu 3
