@@ -1,9 +1,7 @@
 // 1. Menghitung angka genap pada indeks ganjil dari bilangan 1-20
 
 console.log("Soal Nomor 1");
-let angka = [
-  2, 12, 10, 19, 18, 4, 6, 17, 8, 20, 16, 15, 1, 14, 11, 5, 3, 9, 7, 13,
-];
+let angka = [2, 12, 10, 19, 18, 4, 6, 17, 8, 20, 16, 15, 1, 14, 11, 5, 3, 9, 7, 13,];
 let total = 0;
 for (let i = 0; i < angka.length; i++) {
   if (i % 2 !== 0) {
