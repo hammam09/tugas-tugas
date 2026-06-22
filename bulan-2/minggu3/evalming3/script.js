@@ -55,7 +55,7 @@ console.log("Rata-rata:", rataRata);
 // 5. Mencari niai terbesar kedua pada sebuah array
 
 console.log("Soal Nommor 5");
-let bilangan = [21, 19, 35, 10, 20];
+let bilangan = [21, 19, 35, 40, 20];
 let besar1 = 0;
 let besar2 = 0;
 for (let i = 0; i < bilangan.length; i++) {
@@ -68,7 +68,7 @@ for (let i = 0; i < bilangan.length; i++) {
   }
 }
 
-console.log(besar2);
+console.log("Angka terbesar kedua:" , besar2);
 
 // 6. Membuat array baru yang berisi lebih dari 5 karakter
 
@@ -127,7 +127,7 @@ function gender(nama1, nama2) {
   }
   return hasil1;
 }
-let nama1 = ["Budi", "Fajar", "Andi", "Angga", "Nopal"];
+let nama1 = ["Budi", "Fajar", "Yuda", "Angga", "Nopal"];
 let nama2 = ["Siti", "Dewi", "Nopal", "Yuda", "Budi"];
 
 console.log(gender(nama1, nama2));
@@ -268,19 +268,19 @@ console.log(arrayPasangan);
 
 // 15. Bonus
 
-console.log("Bonus");
-function pangkat(basis, eksponen) {
-    // 1. Kondisi Berhenti (Base Case)
-    // Segala sesuatu pangkat 0 hasilnya 1
-    if (eksponen === 0) {
-        return 1;
-    }
-    // 2. Langkah Rekursif (Recursive Step)
-    // basis * pangkat(basis, eksponen - 1)
-    return basis * pangkat(basis, eksponen - 1);
-}
+// console.log("Bonus");
+// function pangkat(basis, eksponen) {
+//     // 1. Kondisi Berhenti (Base Case)
+//     // Segala sesuatu pangkat 0 hasilnya 1
+//     if (eksponen === 0) {
+//         return 1;
+//     }
+//     // 2. Langkah Rekursif (Recursive Step)
+//     // basis * pangkat(basis, eksponen - 1)
+//     return basis * pangkat(basis, eksponen - 1);
+// }
 
-console.log(pangkat(2, 5));
+// console.log(pangkat(2, 5));
 
 // 16. Mengelompokkan data berdasarkan jurusan
 
@@ -315,6 +315,18 @@ console.log(kelompokkanJurusan(dataMahasiswa));
 // 17. Membuat object bersarang menggunakan fungsi dan menghitung totalnya
 
 console.log("Soal Nomor 17");
+// Contoh data:
+let data3 = {
+  a: 10,
+  b: {
+    c: 20,
+    d: {
+      e: 30,
+    },
+  },
+  f: 5,
+};
+
 function hitungTotal(obj) {
   let total2 = 0;
   for (let key in obj) {
@@ -331,17 +343,6 @@ function hitungTotal(obj) {
   }
   return total2;
 }
-// Contoh data:
-let data3 = {
-  a: 10,
-  b: {
-    c: 20,
-    d: {
-      e: 30,
-    },
-  },
-  f: 5,
-};
 console.log(hitungTotal(data3));
 
 // 18. Menghitung saldo akhir
@@ -350,7 +351,7 @@ console.log("Soal Nomor 18");
 let transaksi = [ 
     { type: "income", amount: 500000 }, 
     { type: "expense", amount: 200000 }, 
-    { type: "income", amount: 300000 }, 
+    { type: "income", amount: 100000 }, 
     { type: "expense", amount: 100000 } 
 ];
 
@@ -392,40 +393,40 @@ inventaris.tampilkan();
 
 // 20 . Bonus
 
-console.log("Bonus");
-let sistemSiswa = {
-    data: [],
-    tambah(id, nama, nilai) {
-        this.data.push({ id, nama, nilai });
-    },
-    hapus(id) {
-        this.data = this.data.filter(s => s.id !== id);
-    },
-    perbarui(id, nilaiBaru) {
-        let siswa = this.data.find(s => s.id === id);
-        if (siswa) siswa.nilai = nilaiBaru;
-    },
-    cari(nama) {
-        return this.data.find(s => s.nama === nama) || "Siswa tidak ditemukan";
-    },
-    tampilkan() {
-        console.table(this.data);
-    },
-    hitungRataRata() {
-        let total = this.data.reduce((sum, s) => sum + s.nilai, 0);
-        return this.data.length ? total / this.data.length : 0;
-    },
-    terbaik() {
-        return this.data.reduce((prev, curr) => (curr.nilai > prev.nilai ? curr : prev), this.data[0]);
-    },
-    terendah() {
-        return this.data.reduce((prev, curr) => (curr.nilai < prev.nilai ? curr : prev), this.data[0]);
-    }
-};
-// Penggunaan:
-sistemSiswa.tambah(1, "Andi", 85);
-sistemSiswa.tambah(2, "Budi", 92);
-sistemSiswa.tambah(3, "Citra", 78)
-sistemSiswa.tampilkan();
-console.log("Rata-rata:", sistemSiswa.hitungRataRata());
-console.log("Siswa terbaik:", sistemSiswa.terbaik());
+// console.log("Bonus");
+// let sistemSiswa = {
+//     data: [],
+//     tambah(id, nama, nilai) {
+//         this.data.push({ id, nama, nilai });
+//     },
+//     hapus(id) {
+//         this.data = this.data.filter(s => s.id !== id);
+//     },
+//     perbarui(id, nilaiBaru) {
+//         let siswa = this.data.find(s => s.id === id);
+//         if (siswa) siswa.nilai = nilaiBaru;
+//     },
+//     cari(nama) {
+//         return this.data.find(s => s.nama === nama) || "Siswa tidak ditemukan";
+//     },
+//     tampilkan() {
+//         console.table(this.data);
+//     },
+//     hitungRataRata() {
+//         let total = this.data.reduce((sum, s) => sum + s.nilai, 0);
+//         return this.data.length ? total / this.data.length : 0;
+//     },
+//     terbaik() {
+//         return this.data.reduce((prev, curr) => (curr.nilai > prev.nilai ? curr : prev), this.data[0]);
+//     },
+//     terendah() {
+//         return this.data.reduce((prev, curr) => (curr.nilai < prev.nilai ? curr : prev), this.data[0]);
+//     }
+// };
+// // Penggunaan:
+// sistemSiswa.tambah(1, "Andi", 85);
+// sistemSiswa.tambah(2, "Budi", 92);
+// sistemSiswa.tambah(3, "Citra", 78)
+// sistemSiswa.tampilkan();
+// console.log("Rata-rata:", sistemSiswa.hitungRataRata());
+// console.log("Siswa terbaik:", sistemSiswa.terbaik());
