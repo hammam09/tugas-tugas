@@ -1,4 +1,4 @@
-# 📚 Rangkuman Materi JavaScript (Pre-Class Programming)
+# 📚 Rangkuman Materi Hari Senin
 
 Repositori ini berisi rangkuman komprehensif mengenai konsep fundamental JavaScript beserta contoh implementasi kodenya: **Iterable & Non-Iterable**, **Built-in Functions untuk String & Number**, serta **Scope, Hoisting, & Closure**. 
 
