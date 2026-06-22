@@ -385,8 +385,9 @@ let inventaris = {
 };
 // Penggunaan
 inventaris.tambah(1, "Laptop", 12000000);
-inventaris.tambah(1, "Laptop", 12000000);
-inventaris.tambah(1, "Laptop", 12000000);
+inventaris.tambah(2, "Mouse", 120000);
+inventaris.tambah(3, "Keyboard", 250000);
+console.log(inventaris.cari("Laptop"));
 inventaris.tampilkan();
 
 // 20 . Bonus
