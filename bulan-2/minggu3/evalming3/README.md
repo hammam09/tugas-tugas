@@ -98,4 +98,4 @@ evalming3/
 Proyek telah selesai. Semua 20 soal beserta soal bonus sudah berhasil dikerjakan dan diuji dengan baik.
 
 ---
-**Tujuan**: Evaluasi Pembelajaran JavaScript Minggu 3
+**Tujuan**: Menjadikan latihan ini untuk belajar dan berkembang
