@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dynamic Table Manager - Student Dashboard</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="favicon-32x32.png" type="image/png">
+
+</head>
+<body>
+
+<div class="container">
+    <header>
+        <h1>Dynamic Table Manager</h1>
+        <p>Dashboard manajemen dan rekapitulasi data siswa secara realtime dengan sistem filter lanjutan.</p>
+    </header>
+
+    <div class="dashboard-grid">
+        <div class="card">
+            <div class="card-title">
+                <i class="fa-solid fa-user-plus" style="color: var(--brand-color)"></i>
+                Tambah Siswa Baru
+            </div>
+            <form id="studentForm" novalidate>
+                <div class="form-group" id="group-name">
+                    <label for="studentName">Nama Lengkap</label>
+                    <input type="text" id="studentName" class="form-control" placeholder="Contoh: Andi Wijaya" autocomplete="off">
+                    <div class="error-message">Nama tidak boleh kosong.</div>
+                </div>
+
+                <div class="form-group" id="group-age">
+                    <label for="studentAge">Umur (Tahun)</label>
+                    <input type="number" id="studentAge" class="form-control" placeholder="Contoh: 16" min="1">
+                    <div class="error-message">Umur harus diisi dan berupa angka positif.</div>
+                </div>
+
+                <div class="form-group" id="group-class">
+                    <label for="studentClass">Kelas / Jurusan</label>
+                    <input type="text" id="studentClass" class="form-control" placeholder="Contoh: 10-MIPA atau 12-IPS" autocomplete="off">
+                    <div class="error-message">Kelas tidak boleh kosong.</div>
+                </div>
+
+                <button type="submit" class="btn btn-primary">
+                    <i class="fa-solid fa-plus"></i> Tambah Data
+                </button>
+            </form>
+        </div>
+
+        <div>
+            <div class="summary-wrapper">
+                <div class="stat-card">
+                    <div class="stat-icon blue"><i class="fa-solid fa-users"></i></div>
+                    <div class="stat-info">
+                        <div class="stat-val" id="stat-total">0</div>
+                        <div class="stat-label">Total Siswa</div>
+                    </div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-icon amber"><i class="fa-solid fa-cake-candles"></i></div>
+                    <div class="stat-info">
+                        <div class="stat-val" id="stat-avg-age">0</div>
+                        <div class="stat-label">Rerata Umur</div>
+                    </div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-icon green"><i class="fa-solid fa-school"></i></div>
+                    <div class="stat-info">
+                        <div class="stat-val" id="stat-classes">0</div>
+                        <div class="stat-label">Total Kelas</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="filter-bar">
+                <div class="filter-group">
+                    <label for="filterAge">Filter Berdasarkan Usia</label>
+                    <select id="filterAge" class="form-control">
+                        <option value="all">Semua Usia</option>
+                        <option value="under15">&lt; 15 Tahun</option>
+                        <option value="15-17">15 - 17 Tahun</option>
+                        <option value="above17">&gt; 17 Tahun</option>
+                    </select>
+                </div>
+                <div class="filter-group">
+                    <label for="filterMajor">Cari Jurusan / Kelas</label>
+                    <input type="text" id="filterMajor" class="form-control" placeholder="Ketik kata kunci (misal: MIPA, IPS)...">
+                </div>
+            </div>
+
+            <div class="card" style="padding: 0;">
+                <div class="table-container">
+                    <table id="studentTable">
+                        <thead>
+                            <tr>
+                                <th>Nama</th>
+                                <th style="width: 100px;">Umur</th>
+                                <th style="width: 180px;">Kelas</th>
+                                <th style="width: 180px; text-align: center;">Aksi</th>
+                            </tr>
+                        </thead>
+                        <tbody id="tableBody">
+                            </tbody>
+                    </table>
+                </div>
+
+                <div class="empty-state" id="emptyState">
+                    <i class="fa-solid fa-folder-open"></i>
+                    <p id="emptyStateText">Belum ada data siswa. Gunakan formulir di samping untuk menambahkan.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="toast-container" id="toastContainer"></div>
+
+<script src="main.js"></script>
+
+</body>
+</html>
