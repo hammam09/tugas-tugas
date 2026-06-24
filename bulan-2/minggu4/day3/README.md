@@ -4,7 +4,7 @@ Dashboard manajemen dan rekapitulasi data siswa secara realtime menggunakan HTML
 
 ## 📌 Deskripsi
 
-Dynamic Table Manager adalah aplikasi web sederhana yang digunakan untuk mengelola data siswa secara interaktif. Pengguna dapat menambahkan data siswa, melakukan pencarian berdasarkan kelas, memfilter berdasarkan usia, serta melihat statistik siswa secara otomatis.
+Dynamic Table Manager adalah web sederhana yang digunakan untuk mengelola data siswa secara interaktif. Pengguna dapat menambahkan data siswa, melakukan pencarian berdasarkan kelas, memfilter berdasarkan usia, serta melihat statistik siswa secara otomatis.
 
 Aplikasi ini dirancang dengan tampilan modern, responsif, dan mudah digunakan baik di desktop maupun perangkat mobile.
 
