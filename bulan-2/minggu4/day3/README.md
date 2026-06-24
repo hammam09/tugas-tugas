@@ -96,10 +96,14 @@ Beberapa fitur yang dapat ditambahkan:
 - Sorting data.
 
 ---
+## 🌐 Li
+
+---
 
 ## 👨‍💻 Author
 
-By : Hammam
+<strong>By : Hammam</strong>
+
 Dibuat untuk latihan dan pembelajaran JavaScript serta manipulasi DOM.
 
 ---
