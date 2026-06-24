@@ -61,38 +61,6 @@ Dynamic-Table-Manager/
 
 ---
 
-## 🚀 Cara Menjalankan Project
-
-1. Clone repository.
-
-```bash
-git clone https://github.com/username/dynamic-table-manager.git
-```
-
-2. Masuk ke folder project.
-
-```bash
-cd dynamic-table-manager
-```
-
-3. Jalankan file `index.html` menggunakan browser.
-
-Atau gunakan ekstensi **Live Server** pada Visual Studio Code.
-
----
-
-## 📊 Statistik Dashboard
-
-Aplikasi secara otomatis menghitung:
-
-- Total siswa.
-- Rata-rata umur siswa.
-- Total kelas atau jurusan.
-
-Data akan diperbarui setiap kali pengguna menambahkan atau menghapus data.
-
----
-
 ## 🔍 Filter dan Pencarian
 
 ### Filter Usia
@@ -131,6 +99,7 @@ Beberapa fitur yang dapat ditambahkan:
 
 ## 👨‍💻 Author
 
+By : Hammam
 Dibuat untuk latihan dan pembelajaran JavaScript serta manipulasi DOM.
 
 ---
