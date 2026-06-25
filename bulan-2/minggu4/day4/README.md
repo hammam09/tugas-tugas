@@ -74,5 +74,5 @@ url : https://calculator-mam.netlify.app
 
 ---
 <div align="center">
-  <i>Dibuat untuk tugas pembelajaran JavaScript Modular</i>
+  <i>Dibuat untuk tugas pembelajaran JavaScript Modularisasi</i>
 </div>
