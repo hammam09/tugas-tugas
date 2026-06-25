@@ -1,6 +1,6 @@
 # 🧮 Kalkulator Sederhana
   
-Sebuah kalkulator berbasis web interaktif yang dibangun menggunakan **HTML**, **CSS**, dan **JavaScript** dengan menerapkan modularisasi.
+Sebuah aplikasi kalkulator berbasis web interaktif yang dibangun menggunakan **HTML**, **CSS**, dan **JavaScript**.
 
 [![HTML](https://img.shields.io/badge/HTML-E34F26?style=for-the-badge&logo=html&logoColor=white)](https://developer.mozilla.org/en-US/docs/Glossary/HTML5)
 [![CSS](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/CSS)
@@ -48,7 +48,7 @@ Pilih salah satu cara di bawah ini untuk menjalankan:
 
 ---
 
-## 💻 Cuplikan Kode (ES6 Modules)
+## 💻 Cuplikan Kode
 
 Contoh bagaimana fungsi matematika dipisahkan dan dipanggil:
 
@@ -67,7 +67,6 @@ import { tambah, kurang, kali, bagi } from './js/matchOperator.js';
 // Penggunaan di dalam event listener...
 let hasil = tambah(num1, num2);
 ```
-
 ---
 <div align="center">
   <i>Dibuat untuk tugas pembelajaran JavaScript Modular</i>
