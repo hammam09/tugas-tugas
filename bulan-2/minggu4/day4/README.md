@@ -1,9 +1,9 @@
 # 🧮 Kalkulator Sederhana
   
-Sebuah kalkulator berbasis web interaktif yang dibangun menggunakan **HTML**, **CSS**, dan **JavaScript** dengan menerapkan modularisasi.
+Sebuah aplikasi kalkulator berbasis web interaktif yang dibangun menggunakan **HTML**, **CSS**, dan **JavaScript**.
 
 [![HTML](https://img.shields.io/badge/HTML-E34F26?style=for-the-badge&logo=html&logoColor=white)](https://developer.mozilla.org/en-US/docs/Glossary/HTML5)
-[![CSS](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/CSS)
+[![CSS](https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logo=css&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/CSS)
 [![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 
 </div>
@@ -48,7 +48,7 @@ Pilih salah satu cara di bawah ini untuk menjalankan:
 
 ---
 
-## 💻 Cuplikan Kode (ES6 Modules)
+## 💻 Cuplikan Kode
 
 Contoh bagaimana fungsi matematika dipisahkan dan dipanggil:
 
