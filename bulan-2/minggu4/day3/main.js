@@ -1,6 +1,4 @@
-    /**
-     * STATE MANAGEMENT Sederhana
-     */
+    /** STATE MANAGEMENT Sederhana **/
     let appState = [];
 
     // DOM Elements
@@ -19,9 +17,7 @@
     const filterAge = document.getElementById('filterAge');
     const filterMajor = document.getElementById('filterMajor');
 
-    /**
-     * FUNGSI UTILITAS: Mengupdate UI Summary Cards & Empty State
-     */
+    /* FUNGSI UTILITAS: Mengupdate UI Summary Cards & Empty State */
     function updateDashboardSummary() {
         const total = appState.length;
         statTotal.textContent = total;
