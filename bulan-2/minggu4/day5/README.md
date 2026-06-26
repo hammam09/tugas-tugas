@@ -4,21 +4,19 @@ Aplikasi web sederhana untuk mencari informasi surat Al-Qur'an berdasarkan nomor
 
 ## Deskripsi
 
-Pengguna dapat memasukkan nomor surat (1-114) atau nama surat untuk menampilkan:
+Pengguna dapat memasukkan nomor surat (1-114) untuk menampilkan:
 
+- nama surat
 - jumlah ayat
 - nomor juz
-- halaman awal surat
-
-Aplikasi ini menggunakan data surat dari API publik `https://equran.id/api/v2/surat` dan menyimpan riwayat pencarian ke `localStorage`.
+- halaman
+- deskripsi
 
 ## Fitur
 
 - pencarian surat berdasarkan nomor atau nama
-- tampilan hasil dalam tabel
-- riwayat pencarian terbaru disimpan di browser
-- tombol untuk menghapus riwayat satu per satu atau semua
-- dukungan input dengan kata depan `surat`
+- menampilkan hasil
+
 
 ## Cara Pakai
 
@@ -36,4 +34,3 @@ Aplikasi ini menggunakan data surat dari API publik `https://equran.id/api/v2/su
 ## Catatan
 
 - Pastikan koneksi internet aktif karena aplikasi mengambil data dari API.
-- Riwayat hanya tersimpan di browser yang sama dan bisa dihapus kapan saja.
