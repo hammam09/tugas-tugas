@@ -28,7 +28,7 @@ Pengguna dapat memasukkan nomor surat (1-114) untuk menampilkan:
 ## Struktur File
 
 - `index.html` — tampilan utama aplikasi.
-- `main.js` — logika pencarian, pemanggilan API, dan riwayat.
+- `main.js` — logika pencarian, pemanggilan API
 - `style.css` — gaya tampilan halaman.
 
 ## Catatan
